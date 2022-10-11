@@ -2101,7 +2101,7 @@ case 157:
 YY_RULE_SETUP
 #line 257 "lexer.l"
 { yyerror("possible old-style config file entry\n"
-             "  Update your config file (see " CONFIG_DIR 
+             "  Update your config file (see " 
                "/avrdude.conf.sample for a sample)");
      return YYERRCODE; }
 	YY_BREAK

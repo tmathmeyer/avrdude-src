@@ -427,7 +427,7 @@ int main(int argc, char * argv [])
 
 #else
 
-  strcpy(sys_config, CONFIG_DIR);
+  strcpy(sys_config, "/dev/null/");
   i = strlen(sys_config);
   if (i && (sys_config[i-1] != '/'))
     strcat(sys_config, "/");
